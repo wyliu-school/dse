@@ -133,15 +133,15 @@ if (isset($_GET['edit'])) {
                 
                 <div class="form-group">
                     <label for="subject">Subject <span aria-label="required">*</span></label>
-                    <input 
-                        type="text" 
+                    <select 
                         id="subject" 
                         name="subject" 
                         required
                         aria-required="true"
-                        value="<?php echo htmlspecialchars($editMode ? $editMistake['subject'] : ''); ?>"
-                        placeholder="e.g., Mathematics, English, Physics"
+                        data-current-value="<?php echo htmlspecialchars($editMode ? $editMistake['subject'] : ''); ?>"
                     >
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
                 </div>
                 
                 <div class="form-group">

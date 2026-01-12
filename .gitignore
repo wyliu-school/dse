@@ -22,3 +22,7 @@ temp/
 # Database backups
 *.sql.backup
 *.dump
+
+# Demo files
+demo.html
+demo/

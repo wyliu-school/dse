@@ -6,7 +6,10 @@ A comprehensive web application for tracking HKDSE exam scores and mistakes to h
 
 - **User Authentication**: Secure login and registration system
 - **Score Recording**: Track exam scores with detailed information (subject, exam name, scores, dates)
+  - **18 Official HKDSE Subjects**: Pre-populated dropdown with all HKDSE subjects
+  - User-defined total scores for flexibility
 - **Mistake Recording**: Document mistakes with questions, correct answers, explanations, and status tracking
+  - Subject selection from official HKDSE curriculum
 - **Dashboard**: View statistics and recent records at a glance
 - **Dark/Light Mode**: Toggle between dark and light themes for comfortable viewing
 - **Accessibility**: ARIA labels, semantic HTML, keyboard navigation support
@@ -76,14 +79,16 @@ A comprehensive web application for tracking HKDSE exam scores and mistakes to h
 
 ### Adding Score Records
 1. Navigate to "Score Records" from the menu
-2. Fill in the form with subject, exam name, score, max score, date, and optional notes
-3. Click "Add Score Record"
+2. Select subject from the dropdown (18 official HKDSE subjects)
+3. Fill in exam name, score, max score (you set the total), date, and optional notes
+4. Click "Add Score Record"
 
 ### Adding Mistake Records
 1. Navigate to "Mistake Records" from the menu
-2. Fill in subject, topic, question, correct answer, your answer, explanation, date, and status
-3. Click "Add Mistake Record"
-4. Update the status as you review and resolve mistakes
+2. Select subject from the dropdown (18 official HKDSE subjects)
+3. Fill in topic, question, correct answer, your answer, explanation, date, and status
+4. Click "Add Mistake Record"
+5. Update the status as you review and resolve mistakes
 
 ### Dark Mode
 - Click the "🌙 Dark Mode" / "☀️ Light Mode" button in the header to toggle themes
