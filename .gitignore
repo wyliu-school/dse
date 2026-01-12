@@ -1,0 +1,28 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment files (if you create them later)
+.env
+.env.local
+
+# Database backups
+*.sql.backup
+*.dump
+
+# Demo files
+demo.html
+demo/
